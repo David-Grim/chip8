@@ -17,7 +17,9 @@ mysdl.c: implementation of various functions used for rendering graphics using t
 main.c: main function. self explanatory 
 
 
-You need to manually link the SDL2 library to compile this. 
+The code should be portable to any system because SDL seems to play nice with any system. I used visual studio for convenience sake, but you can also create a makefile and compile it the old fashioned way too.
+
+To compile it though you will need to figure out how to install SDL and link the SDL library. https://wiki.libsdl.org/SDL2/Installation
 
 
 --------------------------------------------------------------------------
